@@ -1,0 +1,14 @@
+ abstract class Item: Tile
+            { 
+                private int posX;
+                private int posY;
+                public virtual void TypePosition(int xpos, int ypos)
+                {
+                   
+                posX = xpos;
+                posY = ypos;
+                }
+                public override string ToString()
+                {
+                    return base.ToString();
+                }
