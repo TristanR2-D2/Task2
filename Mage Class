@@ -14,11 +14,4 @@
         public override int ReturnMove()
         { return 0; }
 
-        public bool CheckRange(int eX,int eY,int mX,int mY)
-        {if (((eX - 1 == mX) && (eY == mY)) || ((eX - 1 == mX) && (eY + 1 == mY)) || ((eX - 1 == mX) && (eY - 1 == mY)) || ((eX + 1 == mX) && (eY + 1 == mY)) || ((eX + 1 == mX) && (eY - 1 == mY)) || ((eX == mX) && (eY + 1 == mY)) || ((eX == mX) && (eY - 1 == mY)))
-            {
-                return true;
-            }
-            else return false;
-                
-                    }
+        
